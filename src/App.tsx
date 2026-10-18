@@ -1,6 +1,7 @@
 import { Suspense } from 'react';
 import { motion } from 'framer-motion';
-import { Cpu, Activity, Microchip, ChevronRight, Bot, MapPin, GraduationCap, Code, Server, BookOpen, Layers, ExternalLink } from 'lucide-react';
+import { Activity, Microchip, ChevronRight, Bot, MapPin, GraduationCap, Code, Server, BookOpen, Layers, ExternalLink } from 'lucide-react';
+Server, BookOpen, Layers, ExternalLink } from 'lucide-react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment, ContactShadows, Html } from '@react-three/drei';
 
