@@ -1,13 +1,9 @@
 import { Suspense } from 'react';
 import { motion } from 'framer-motion';
 import { Activity, Microchip, ChevronRight, Bot, MapPin, GraduationCap, Code, Server, BookOpen, Layers, ExternalLink } from 'lucide-react';
-Server, BookOpen, Layers, ExternalLink } from 'lucide-react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment, ContactShadows, Html } from '@react-three/drei';
 
-// ==========================================
-// ANIMATION CONFIGURATIONS
-// ==========================================
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
   visible: { 
@@ -21,6 +17,7 @@ const fadeUp = {
 };
 
 const staggerContainer = {
+// ... rest of your code continues here
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { staggerChildren: 0.15 } }
 };
